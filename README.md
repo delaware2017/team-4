@@ -3,4 +3,5 @@
 - Carlos Hernandez
 - Ikem Okafo
 - Paul Fischer
+- Harsh Gadani
 
