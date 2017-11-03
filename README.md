@@ -1,3 +1,3 @@
 # team-4
-Andrew Kim
-Carlos Hernandez
+- Andrew Kim
+- Carlos Hernandez
