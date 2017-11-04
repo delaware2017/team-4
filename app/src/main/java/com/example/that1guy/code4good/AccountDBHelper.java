@@ -5,16 +5,19 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import com.example.that1guy.code4good.AccountDB;
 
+import static java.security.AccessController.getContext;
+
 /**
  * Created by pureu on 11/4/2017.
  */
 
-public class AccountDBHelper extends SQLiteOpenHelper{
+public final class AccountDBHelper extends SQLiteOpenHelper{
 
-    AccountDB accDB = new AccountDB();
     // If you change the database schema, you must increment the database version.
     public static final int DATABASE_VERSION = 1;
     public static final String DATABASE_NAME = "Account.db";
+
+    //public static AccountDBHelper accDB = new AccountDBHelper(getContext());
 
     public AccountDBHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
