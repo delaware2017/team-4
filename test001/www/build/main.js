@@ -23,51 +23,55 @@ webpackEmptyAsyncContext.id = 121;
 var map = {
 	"../pages/cards/cards.module": [
 		305,
-		11
+		26
 	],
 	"../pages/content/content.module": [
 		306,
-		10
+		25
 	],
 	"../pages/item-create/item-create.module": [
 		307,
-		9
+		24
 	],
 	"../pages/item-detail/item-detail.module": [
 		308,
-		8
+		23
 	],
 	"../pages/list-master/list-master.module": [
 		309,
-		7
+		22
 	],
 	"../pages/login/login.module": [
 		310,
-		6
+		21
 	],
 	"../pages/menu/menu.module": [
 		311,
-		5
+		20
 	],
 	"../pages/search/search.module": [
 		313,
-		4
+		19
 	],
 	"../pages/settings/settings.module": [
 		312,
-		3
+		18
 	],
 	"../pages/signup/signup.module": [
 		314,
-		2
+		17
 	],
 	"../pages/tabs/tabs.module": [
 		315,
-		1
+		16
+	],
+	"../pages/tutorial/tutorial.module": [
+		329,
+		15
 	],
 	"../pages/welcome/welcome.module": [
 		316,
-		0
+		14
 	]
 };
 function webpackAsyncContext(req) {
@@ -708,14 +712,14 @@ var MyApp = (function () {
     return MyApp;
 }());
 __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_4_ionic_angular__["g" /* Nav */]),
-    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["g" /* Nav */])
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_4_ionic_angular__["h" /* Nav */]),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["h" /* Nav */])
 ], MyApp.prototype, "nav", void 0);
 MyApp = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         template: "<ion-menu [content]=\"content\">\n    <ion-header>\n      <ion-toolbar>\n        <ion-title>Pages</ion-title>\n      </ion-toolbar>\n    </ion-header>\n\n    <ion-content>\n      <ion-list>\n        <button menuClose ion-item *ngFor=\"let p of pages\" (click)=\"openPage(p)\">\n          {{p.title}}\n        </button>\n      </ion-list>\n    </ion-content>\n\n  </ion-menu>\n  <ion-nav #content [root]=\"rootPage\"></ion-nav>"
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["j" /* Platform */], __WEBPACK_IMPORTED_MODULE_6__providers_providers__["c" /* Settings */], __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["a" /* Config */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_1__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["k" /* Platform */], __WEBPACK_IMPORTED_MODULE_6__providers_providers__["c" /* Settings */], __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["a" /* Config */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_1__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
 
 //# sourceMappingURL=app.component.js.map

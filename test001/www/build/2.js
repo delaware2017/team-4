@@ -1,6 +1,10 @@
 webpackJsonp([2],{
 
+<<<<<<< HEAD
 /***/ 314:
+=======
+/***/ 315:
+>>>>>>> 64cca8a6bcc409391a140ebfd82cb24c31fdc0f3
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9,7 +13,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngx_translate_core__ = __webpack_require__(112);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(111);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__signup__ = __webpack_require__(326);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tabs__ = __webpack_require__(328);
+>>>>>>> 64cca8a6bcc409391a140ebfd82cb24c31fdc0f3
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -44,7 +52,11 @@ SignupPageModule = __decorate([
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 326:
+=======
+/***/ 328:
+>>>>>>> 64cca8a6bcc409391a140ebfd82cb24c31fdc0f3
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
