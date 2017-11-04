@@ -20,6 +20,8 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_qr_balance" />
+    <include
+        layout="@layout/content_qr_balance"
+        android:visibility="visible" />
 
 </android.support.design.widget.CoordinatorLayout>

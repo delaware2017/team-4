@@ -14,22 +14,77 @@
         android:layout_height="40dp"
         android:text="Event complete"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="399dp" />
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="434dp" />
 
     <CalendarView
         android:id="@+id/calendarView"
         android:layout_width="329dp"
         android:layout_height="359dp"
         tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="32dp" />
+        tools:layout_editor_absoluteY="67dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Update"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="494dp" />
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <TabHost
+        android:layout_width="404dp"
+        android:layout_height="517dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/Account"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Calendar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
 
 </android.support.constraint.ConstraintLayout>

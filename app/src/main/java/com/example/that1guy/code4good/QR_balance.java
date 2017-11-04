@@ -22,14 +22,13 @@ public class QR_balance extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-       /* fab.setOnClickListener(new View.OnClickListener() {
+        /*fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-<<<<<<< HEAD
-        });
+        });*/
 
         SQLiteDatabase myDB = db.getWritableDatabase();
         // Create a new map of values, where column names are the keys
@@ -38,9 +37,5 @@ public class QR_balance extends AppCompatActivity {
 
         // Insert the new row, returning the primary key value of the new row
         long newRowId = myDB.insert(AccountDB.Account.TABLE_NAME, null, values);
-=======
-        });*/
->>>>>>> aa16e7179b91459bfdcc1641f9a74282d5277482
     }
-
 }
