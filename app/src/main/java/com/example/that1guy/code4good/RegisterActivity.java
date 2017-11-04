@@ -1,8 +1,6 @@
 package com.example.that1guy.code4good;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.app.Activity;
 import android.widget.TextView;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,40 +10,17 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-
-import android.graphics.Color;
-
-
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
-
-public class MainActivity extends AppCompatActivity {
-    Button b1,b2;
-    EditText ed1,ed2;
-
-    TextView tx1;
-    int counter = 3;
+public class RegisterActivity extends AppCompatActivity {
 
     // Used to load the 'native-lib' library on application startup.
-    //static {
-      //  System.loadLibrary("native-lib");
-    //}
+    static {
+        System.loadLibrary("native-lib");
+    }
 
     @Override
-
-
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        //b1 = (Button)findViewById(R.id.button);
-        //ed1 = (EditText)findViewById(R.id.editText);
-        //ed2 = (EditText)findViewById(R.id.editText2);
-
-        b2 = (Button)findViewById(R.id.button2);
-        //tx1 = (TextView)findViewById(R.id.textView3);
-        //tx1.setVisibility(View.GONE);
+        setContentView(R.layout.activity_register);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -53,22 +28,14 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
 
         // Example of a call to a native method
-        TextView tv = (TextView) findViewById(0);
-        //tv.setText(stringFromJNI());
-        b2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this,LoginActivity.class);
-                startActivity(i);
-                finish();
-            }
-        });
+        TextView tv = (TextView) findViewById(R.id.text);
+        tv.setText(stringFromJNI());
     }
 
     @Override
