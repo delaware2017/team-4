@@ -15,14 +15,14 @@
         android:text="Event complete"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="427dp" />
+        tools:layout_editor_absoluteY="399dp" />
 
     <CalendarView
         android:id="@+id/calendarView"
-        android:layout_width="358dp"
-        android:layout_height="383dp"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="44dp" />
+        android:layout_width="329dp"
+        android:layout_height="359dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="32dp" />
 
     <Button
         android:id="@+id/button3"

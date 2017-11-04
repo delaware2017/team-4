@@ -1,6 +1,8 @@
 package com.example.that1guy.code4good;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.TextView;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,6 +14,7 @@ import android.view.MenuItem;
 
 public class RegisterActivity extends AppCompatActivity {
 
+    Button b;
     // Used to load the 'native-lib' library on application startup.
     //static {
     //    System.loadLibrary("native-lib");
@@ -21,6 +24,7 @@ public class RegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+        b = (Button)findViewById(R.id.button);
         //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         //setSupportActionBar(toolbar);
 
@@ -36,6 +40,15 @@ public class RegisterActivity extends AppCompatActivity {
         // Example of a call to a native method
         /*TextView tv = (TextView) findViewById(R.id.text);
         tv.setText(stringFromJNI());*/
+
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(RegisterActivity.this,QR_balance.class);
+                startActivity(i);
+                finish();
+            }
+        });
     }
 
     @Override
