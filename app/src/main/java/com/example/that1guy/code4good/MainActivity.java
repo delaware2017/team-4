@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         // Example of a call to a native method
         TextView tv = (TextView) findViewById(0);
         //tv.setText(stringFromJNI());
-        b2.setOnClickListener(new View.OnClickListener() {
+        b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this,LoginActivity.class);
@@ -70,10 +70,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        b1.setOnClickListener(new View.OnClickListener() {
+        b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, LoginActivity.class);
+                Intent i = new Intent(MainActivity.this, RegisterActivity.class);
                 startActivity(i);
                 finish();
             }

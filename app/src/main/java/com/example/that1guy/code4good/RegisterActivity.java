@@ -13,9 +13,9 @@ import android.view.MenuItem;
 public class RegisterActivity extends AppCompatActivity {
 
     // Used to load the 'native-lib' library on application startup.
-    static {
-        System.loadLibrary("native-lib");
-    }
+    //static {
+    //    System.loadLibrary("native-lib");
+    //}
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,18 +24,18 @@ public class RegisterActivity extends AppCompatActivity {
         //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         //setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });
+        });*/
 
         // Example of a call to a native method
-        TextView tv = (TextView) findViewById(R.id.text);
-        tv.setText(stringFromJNI());
+        /*TextView tv = (TextView) findViewById(R.id.text);
+        tv.setText(stringFromJNI());*/
     }
 
     @Override
