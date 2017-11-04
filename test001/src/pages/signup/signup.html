@@ -34,6 +34,16 @@
         <ion-label fixed>{{ 'PASSWORD' | translate }}</ion-label>
         <ion-input type="password" [(ngModel)]="account.password" name="password"></ion-input>
       </ion-item>
+	  
+	  <ion-item>
+        <ion-label fixed>{{ 'Phone' | translate }}</ion-label>
+        <ion-input type="phonenumber" [(ngModel)]="account.phonenumber" name="phonenumber"></ion-input>
+      </ion-item>
+	  
+	  <ion-item>
+        <ion-label fixed>{{ 'Household' | translate }}</ion-label>
+        <ion-input type="household" [(ngModel)]="account.household" name="household"></ion-input>
+      </ion-item>
 
       <div padding>
         <button ion-button color="primary" block>{{ 'SIGNUP_BUTTON' | translate }}</button>
