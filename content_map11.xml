@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.that1guy.code4good.Map11"
+    tools:showIn="@layout/activity_map11">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="325dp"
+        android:layout_height="375dp"
+        android:scrollbars="vertical"
+        android:visibility="visible"
+        app:srcCompat="@drawable/maap"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Near by locations"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="80dp"
+        tools:text="Near by locations" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="207dp"
+        android:layout_height="40dp"
+        android:text="View all locations ->"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Target 0.3 mi"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="161dp"
+        android:layout_height="34dp"
+        android:text="Groceryships 1.2"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+</android.support.constraint.ConstraintLayout>
