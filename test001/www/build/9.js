@@ -1,6 +1,10 @@
 webpackJsonp([9],{
 
+<<<<<<< HEAD
 /***/ 308:
+=======
+/***/ 307:
+>>>>>>> 5cbca2eb6233243a52c669de5e193f352124e4d1
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9,7 +13,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngx_translate_core__ = __webpack_require__(112);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(111);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__item_detail__ = __webpack_require__(321);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__item_detail__ = __webpack_require__(320);
+>>>>>>> 5cbca2eb6233243a52c669de5e193f352124e4d1
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -44,7 +52,11 @@ ItemDetailPageModule = __decorate([
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 321:
+=======
+/***/ 320:
+>>>>>>> 5cbca2eb6233243a52c669de5e193f352124e4d1
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -73,7 +85,11 @@ var ItemDetailPage = (function () {
 }());
 ItemDetailPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+<<<<<<< HEAD
         selector: 'page-item-detail',template:/*ion-inline-start:"/home/that1guy/Documents/codeForGood/gitclone/team-4/test001/src/pages/item-detail/item-detail.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{ item.name }}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <div class="item-profile" text-center #profilePic [style.background-image]="\'url(\' + item.profilePic + \')\'">\n  </div>\n\n  <div class="item-detail" padding>\n    <h2>{{item.name}}</h2>\n    <p>{{item.about}}</p>\n  </div>\n</ion-content>'/*ion-inline-end:"/home/that1guy/Documents/codeForGood/gitclone/team-4/test001/src/pages/item-detail/item-detail.html"*/
+=======
+        selector: 'page-item-detail',template:/*ion-inline-start:"C:\Users\chi10\OneDrive\Documents\JPM\team-4\test001\src\pages\item-detail\item-detail.html"*/'<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>{{ item.name }}</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n  <div class="item-profile" text-center #profilePic [style.background-image]="\'url(\' + item.profilePic + \')\'">\n\n  </div>\n\n\n\n  <div class="item-detail" padding>\n\n    <h2>{{item.name}}</h2>\n\n    <p>{{item.about}}</p>\n\n  </div>\n\n</ion-content>'/*ion-inline-end:"C:\Users\chi10\OneDrive\Documents\JPM\team-4\test001\src\pages\item-detail\item-detail.html"*/
+>>>>>>> 5cbca2eb6233243a52c669de5e193f352124e4d1
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_providers__["b" /* Items */]])
 ], ItemDetailPage);

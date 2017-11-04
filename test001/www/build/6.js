@@ -88,7 +88,11 @@ __decorate([
 ], MenuPage.prototype, "nav", void 0);
 MenuPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+<<<<<<< HEAD
         selector: 'page-menu',template:/*ion-inline-start:"/home/that1guy/Documents/codeForGood/gitclone/team-4/test001/src/pages/menu/menu.html"*/'<ion-menu [content]="content">\n  <ion-content>\n    <ion-list>\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n</ion-menu>\n\n<ion-nav #content [root]="rootPage"></ion-nav>'/*ion-inline-end:"/home/that1guy/Documents/codeForGood/gitclone/team-4/test001/src/pages/menu/menu.html"*/
+=======
+        selector: 'page-menu',template:/*ion-inline-start:"C:\Users\chi10\OneDrive\Documents\JPM\team-4\test001\src\pages\menu\menu.html"*/'<ion-menu [content]="content">\n\n  <ion-content>\n\n    <ion-list>\n\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n        {{p.title}}\n\n      </button>\n\n    </ion-list>\n\n  </ion-content>\n\n</ion-menu>\n\n\n\n<ion-nav #content [root]="rootPage"></ion-nav>'/*ion-inline-end:"C:\Users\chi10\OneDrive\Documents\JPM\team-4\test001\src\pages\menu\menu.html"*/
+>>>>>>> 5cbca2eb6233243a52c669de5e193f352124e4d1
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
 ], MenuPage);

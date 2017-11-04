@@ -30,11 +30,19 @@ var map = {
 		11
 	],
 	"../pages/item-create/item-create.module": [
+<<<<<<< HEAD
 		307,
 		10
 	],
 	"../pages/item-detail/item-detail.module": [
 		308,
+=======
+		308,
+		10
+	],
+	"../pages/item-detail/item-detail.module": [
+		307,
+>>>>>>> 5cbca2eb6233243a52c669de5e193f352124e4d1
 		9
 	],
 	"../pages/list-master/list-master.module": [
@@ -58,6 +66,7 @@ var map = {
 		4
 	],
 	"../pages/signup/signup.module": [
+<<<<<<< HEAD
 		314,
 		3
 	],
@@ -67,6 +76,17 @@ var map = {
 	],
 	"../pages/tutorial/tutorial.module": [
 		316,
+=======
+		316,
+		3
+	],
+	"../pages/tabs/tabs.module": [
+		314,
+		2
+	],
+	"../pages/tutorial/tutorial.module": [
+		315,
+>>>>>>> 5cbca2eb6233243a52c669de5e193f352124e4d1
 		1
 	],
 	"../pages/welcome/welcome.module": [
@@ -377,16 +397,27 @@ AppModule = __decorate([
                 links: [
                     { loadChildren: '../pages/cards/cards.module#CardsPageModule', name: 'CardsPage', segment: 'cards', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/content/content.module#ContentPageModule', name: 'ContentPage', segment: 'content', priority: 'low', defaultHistory: [] },
+<<<<<<< HEAD
                     { loadChildren: '../pages/item-create/item-create.module#ItemCreatePageModule', name: 'ItemCreatePage', segment: 'item-create', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/item-detail/item-detail.module#ItemDetailPageModule', name: 'ItemDetailPage', segment: 'item-detail', priority: 'low', defaultHistory: [] },
+=======
+                    { loadChildren: '../pages/item-detail/item-detail.module#ItemDetailPageModule', name: 'ItemDetailPage', segment: 'item-detail', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/item-create/item-create.module#ItemCreatePageModule', name: 'ItemCreatePage', segment: 'item-create', priority: 'low', defaultHistory: [] },
+>>>>>>> 5cbca2eb6233243a52c669de5e193f352124e4d1
                     { loadChildren: '../pages/list-master/list-master.module#ListMasterPageModule', name: 'ListMasterPage', segment: 'list-master', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/menu/menu.module#MenuPageModule', name: 'MenuPage', segment: 'menu', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/search/search.module#SearchPageModule', name: 'SearchPage', segment: 'search', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/settings/settings.module#SettingsPageModule', name: 'SettingsPage', segment: 'settings', priority: 'low', defaultHistory: [] },
+<<<<<<< HEAD
                     { loadChildren: '../pages/signup/signup.module#SignupPageModule', name: 'SignupPage', segment: 'signup', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'TabsPage', segment: 'tabs', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/tutorial/tutorial.module#TutorialPageModule', name: 'TutorialPage', segment: 'tutorial', priority: 'low', defaultHistory: [] },
+=======
+                    { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'TabsPage', segment: 'tabs', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/tutorial/tutorial.module#TutorialPageModule', name: 'TutorialPage', segment: 'tutorial', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/signup/signup.module#SignupPageModule', name: 'SignupPage', segment: 'signup', priority: 'low', defaultHistory: [] },
+>>>>>>> 5cbca2eb6233243a52c669de5e193f352124e4d1
                     { loadChildren: '../pages/welcome/welcome.module#WelcomePageModule', name: 'WelcomePage', segment: 'welcome', priority: 'low', defaultHistory: [] }
                 ]
             }),

@@ -70,7 +70,11 @@ var ContentPage = (function () {
 }());
 ContentPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+<<<<<<< HEAD
         selector: 'page-content',template:/*ion-inline-start:"/home/that1guy/Documents/codeForGood/gitclone/team-4/test001/src/pages/content/content.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Content\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <p>\n    This is a perfect starting point for a page with primarily text content. The body is padded nicely and ready for prose.\n  </p>\n</ion-content>'/*ion-inline-end:"/home/that1guy/Documents/codeForGood/gitclone/team-4/test001/src/pages/content/content.html"*/
+=======
+        selector: 'page-content',template:/*ion-inline-start:"C:\Users\chi10\OneDrive\Documents\JPM\team-4\test001\src\pages\content\content.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Content\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <p>\n\n    This is a perfect starting point for a page with primarily text content. The body is padded nicely and ready for prose.\n\n  </p>\n\n</ion-content>'/*ion-inline-end:"C:\Users\chi10\OneDrive\Documents\JPM\team-4\test001\src\pages\content\content.html"*/
+>>>>>>> 5cbca2eb6233243a52c669de5e193f352124e4d1
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
 ], ContentPage);

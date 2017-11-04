@@ -2,110 +2,112 @@
 1 verbose cli [ '/usr/bin/node',
 1 verbose cli   '/usr/bin/npm',
 1 verbose cli   'install',
-1 verbose cli   'andriod',
+1 verbose cli   'https://github.com/brodysoft/Cordova-SQLitePlugin.git',
 1 verbose cli   '--production',
-1 verbose cli   '--save-exact' ]
+1 verbose cli   '--save' ]
 2 info using npm@3.10.10
 3 info using node@v6.11.5
 4 silly loadCurrentTree Starting
 5 silly install loadCurrentTree
 6 silly install readLocalPackageData
-7 silly fetchPackageMetaData andriod
-8 silly fetchNamedPackageData andriod
-9 silly mapToRegistry name andriod
-10 silly mapToRegistry using default registry
-11 silly mapToRegistry registry https://registry.npmjs.org/
-12 silly mapToRegistry data Result {
-12 silly mapToRegistry   raw: 'andriod',
-12 silly mapToRegistry   scope: null,
-12 silly mapToRegistry   escapedName: 'andriod',
-12 silly mapToRegistry   name: 'andriod',
-12 silly mapToRegistry   rawSpec: '',
-12 silly mapToRegistry   spec: 'latest',
-12 silly mapToRegistry   type: 'tag' }
-13 silly mapToRegistry uri https://registry.npmjs.org/andriod
-14 verbose request uri https://registry.npmjs.org/andriod
-15 verbose request no auth needed
-16 info attempt registry request try #1 at 8:33:15 PM
-17 verbose request id 4bb5def633fe982d
-18 http request GET https://registry.npmjs.org/andriod
-19 http 404 https://registry.npmjs.org/andriod
-20 verbose headers { 'content-type': 'application/json',
-20 verbose headers   'cache-control': 'max-age=0',
-20 verbose headers   'content-length': '2',
-20 verbose headers   'accept-ranges': 'bytes',
-20 verbose headers   date: 'Sat, 04 Nov 2017 00:33:16 GMT',
-20 verbose headers   via: '1.1 varnish',
-20 verbose headers   age: '0',
-20 verbose headers   connection: 'keep-alive',
-20 verbose headers   'x-served-by': 'cache-jfk8138-JFK',
-20 verbose headers   'x-cache': 'MISS',
-20 verbose headers   'x-cache-hits': '0',
-20 verbose headers   'x-timer': 'S1509755596.018942,VS0,VE503',
-20 verbose headers   vary: 'Accept-Encoding' }
-21 silly get cb [ 404,
-21 silly get   { 'content-type': 'application/json',
-21 silly get     'cache-control': 'max-age=0',
-21 silly get     'content-length': '2',
-21 silly get     'accept-ranges': 'bytes',
-21 silly get     date: 'Sat, 04 Nov 2017 00:33:16 GMT',
-21 silly get     via: '1.1 varnish',
-21 silly get     age: '0',
-21 silly get     connection: 'keep-alive',
-21 silly get     'x-served-by': 'cache-jfk8138-JFK',
-21 silly get     'x-cache': 'MISS',
-21 silly get     'x-cache-hits': '0',
-21 silly get     'x-timer': 'S1509755596.018942,VS0,VE503',
-21 silly get     vary: 'Accept-Encoding' } ]
-22 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/andriod
-22 silly fetchPackageMetaData     at makeError (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
-22 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:280:14)
-22 silly fetchPackageMetaData     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
-22 silly fetchPackageMetaData     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:187:22)
-22 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
-22 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
-22 silly fetchPackageMetaData     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1048:10)
-22 silly fetchPackageMetaData     at emitOne (events.js:96:13)
-22 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
-22 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:969:12)
-22 silly fetchPackageMetaData  error for andriod { Error: Registry returned 404 for GET on https://registry.npmjs.org/andriod
-22 silly fetchPackageMetaData     at makeError (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
-22 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:280:14)
-22 silly fetchPackageMetaData     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
-22 silly fetchPackageMetaData     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:187:22)
-22 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
-22 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
-22 silly fetchPackageMetaData     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1048:10)
-22 silly fetchPackageMetaData     at emitOne (events.js:96:13)
-22 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
-22 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:969:12) pkgid: 'andriod', statusCode: 404, code: 'E404' }
-23 silly rollbackFailedOptional Starting
-24 silly rollbackFailedOptional Finishing
-25 silly runTopLevelLifecycles Finishing
-26 silly install printInstalled
-27 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/andriod
-27 verbose stack     at makeError (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
-27 verbose stack     at CachingRegistryClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:280:14)
-27 verbose stack     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
-27 verbose stack     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:187:22)
-27 verbose stack     at emitTwo (events.js:106:13)
-27 verbose stack     at Request.emit (events.js:191:7)
-27 verbose stack     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1048:10)
-27 verbose stack     at emitOne (events.js:96:13)
-27 verbose stack     at Request.emit (events.js:188:7)
-27 verbose stack     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:969:12)
-28 verbose statusCode 404
-29 verbose pkgid andriod
-30 verbose cwd /home/that1guy/Documents/codeForGood/gitclone/team-4/test001
-31 error Linux 4.4.0-93-generic
-32 error argv "/usr/bin/node" "/usr/bin/npm" "install" "andriod" "--production" "--save-exact"
-33 error node v6.11.5
-34 error npm  v3.10.10
-35 error code E404
-36 error 404 Registry returned 404 for GET on https://registry.npmjs.org/andriod
-37 error 404
-38 error 404 'andriod' is not in the npm registry.
-39 error 404 You should bug the author to publish it (or use the name yourself!)
-40 error 404 Note that you can also install from a
-41 error 404 tarball, folder, http url, or git url.
-42 verbose exit [ 1, true ]
+7 silly fetchPackageMetaData https://github.com/brodysoft/Cordova-SQLitePlugin.git
+8 silly fetchOtherPackageData https://github.com/brodysoft/Cordova-SQLitePlugin.git
+9 silly cache add args [ 'https://github.com/brodysoft/Cordova-SQLitePlugin.git',
+9 silly cache add   null ]
+10 verbose cache add spec https://github.com/brodysoft/Cordova-SQLitePlugin.git
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'https://github.com/brodysoft/Cordova-SQLitePlugin.git',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'https://github.com/brodysoft/Cordova-SQLitePlugin.git',
+11 silly cache add   spec: 'git+https://github.com/brodysoft/Cordova-SQLitePlugin.git',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:brodysoft/Cordova-SQLitePlugin.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/brodysoft/Cordova-SQLitePlugin.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/brodysoft/Cordova-SQLitePlugin.git',
+11 silly cache add      gitUrl: 'git://github.com/brodysoft/Cordova-SQLitePlugin.git',
+11 silly cache add      shortcut: 'github:brodysoft/Cordova-SQLitePlugin',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/brodysoft/Cordova-SQLitePlugin/master/package.json' } }
+12 verbose addRemoteGit caching https://github.com/brodysoft/Cordova-SQLitePlugin.git
+13 verbose addRemoteGit git+https://github.com/brodysoft/Cordova-SQLitePlugin.git is a repository hosted by github
+14 silly tryClone cloning git+https://github.com/brodysoft/Cordova-SQLitePlugin.git via git+https://github.com/brodysoft/Cordova-SQLitePlugin.git
+15 verbose tryClone git-https-github-com-brodysoft-Cordova-SQLitePlugin-git-89195718 not in flight; caching
+16 verbose correctMkdir /home/that1guy/.npm/_git-remotes correctMkdir not in flight; initializing
+17 verbose makeDirectory /home/that1guy/.npm/_git-remotes creation not in flight; initializing
+18 silly makeDirectory /home/that1guy/.npm/_git-remotes uid: 1000 gid: 1000
+19 info git [ 'clone',
+19 info git   '--template=/home/that1guy/.npm/_git-remotes/_templates',
+19 info git   '--mirror',
+19 info git   'https://github.com/brodysoft/Cordova-SQLitePlugin.git',
+19 info git   '/home/that1guy/.npm/_git-remotes/git-https-github-com-brodysoft-Cordova-SQLitePlugin-git-89195718' ]
+20 verbose mirrorRemote git+https://github.com/brodysoft/Cordova-SQLitePlugin.git git clone https://github.com/brodysoft/Cordova-SQLitePlugin.git
+21 verbose correctMkdir /home/that1guy/.npm/_git-remotes correctMkdir not in flight; initializing
+22 verbose setPermissions git+https://github.com/brodysoft/Cordova-SQLitePlugin.git set permissions on /home/that1guy/.npm/_git-remotes/git-https-github-com-brodysoft-Cordova-SQLitePlugin-git-89195718
+23 verbose resolveHead git+https://github.com/brodysoft/Cordova-SQLitePlugin.git original treeish: master
+24 info git [ 'rev-list', '-n1', 'master' ]
+25 error git rev-list -n1 master: fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+25 error git rev-list -n1 master: Use '--' to separate paths from revisions, like this:
+25 error git rev-list -n1 master: 'git <command> [<revision>...] -- [<file>...]'
+26 silly fetchPackageMetaData Error: Command failed: git rev-list -n1 master
+26 silly fetchPackageMetaData fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+26 silly fetchPackageMetaData Use '--' to separate paths from revisions, like this:
+26 silly fetchPackageMetaData 'git <command> [<revision>...] -- [<file>...]'
+26 silly fetchPackageMetaData
+26 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:198:12)
+26 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+26 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+26 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:920:16)
+26 silly fetchPackageMetaData     at Socket.<anonymous> (internal/child_process.js:351:11)
+26 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+26 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+26 silly fetchPackageMetaData     at Pipe._handle.close [as _onclose] (net.js:497:12)
+26 silly fetchPackageMetaData  error for https://github.com/brodysoft/Cordova-SQLitePlugin.git { Error: Command failed: git rev-list -n1 master
+26 silly fetchPackageMetaData fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+26 silly fetchPackageMetaData Use '--' to separate paths from revisions, like this:
+26 silly fetchPackageMetaData 'git <command> [<revision>...] -- [<file>...]'
+26 silly fetchPackageMetaData
+26 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:198:12)
+26 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+26 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+26 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:920:16)
+26 silly fetchPackageMetaData     at Socket.<anonymous> (internal/child_process.js:351:11)
+26 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+26 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+26 silly fetchPackageMetaData     at Pipe._handle.close [as _onclose] (net.js:497:12)
+26 silly fetchPackageMetaData   killed: false,
+26 silly fetchPackageMetaData   code: 128,
+26 silly fetchPackageMetaData   signal: null,
+26 silly fetchPackageMetaData   cmd: 'git rev-list -n1 master' }
+27 silly rollbackFailedOptional Starting
+28 silly rollbackFailedOptional Finishing
+29 silly runTopLevelLifecycles Finishing
+30 silly install printInstalled
+31 verbose stack Error: Command failed: git rev-list -n1 master
+31 verbose stack fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+31 verbose stack Use '--' to separate paths from revisions, like this:
+31 verbose stack 'git <command> [<revision>...] -- [<file>...]'
+31 verbose stack
+31 verbose stack     at ChildProcess.exithandler (child_process.js:198:12)
+31 verbose stack     at emitTwo (events.js:106:13)
+31 verbose stack     at ChildProcess.emit (events.js:191:7)
+31 verbose stack     at maybeClose (internal/child_process.js:920:16)
+31 verbose stack     at Socket.<anonymous> (internal/child_process.js:351:11)
+31 verbose stack     at emitOne (events.js:96:13)
+31 verbose stack     at Socket.emit (events.js:188:7)
+31 verbose stack     at Pipe._handle.close [as _onclose] (net.js:497:12)
+32 verbose cwd /home/that1guy/Documents/codeForGood/gitclone/team-4/test001
+33 error Linux 4.4.0-93-generic
+34 error argv "/usr/bin/node" "/usr/bin/npm" "install" "https://github.com/brodysoft/Cordova-SQLitePlugin.git" "--production" "--save"
+35 error node v6.11.5
+36 error npm  v3.10.10
+37 error code 128
+38 error Command failed: git rev-list -n1 master
+38 error fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+38 error Use '--' to separate paths from revisions, like this:
+38 error 'git <command> [<revision>...] -- [<file>...]'
+39 error If you need help, you may report this error at:
+39 error     <https://github.com/npm/npm/issues>
+40 verbose exit [ 1, true ]
